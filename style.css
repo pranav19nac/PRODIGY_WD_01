@@ -1,0 +1,82 @@
+body {
+  font-family: 'Georgia', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff; /* Light gray background */
+}
+
+#mainNav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #222; /* Darker background */
+  color: #fff; /* White text */
+  padding: 10px 0;
+  z-index: 10; /* Ensure the menu stays on top */
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+#mainNav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Center the menu items */
+}
+
+#mainNav li {
+  display: inline-block; /* Arrange items horizontally */
+  margin: 0 15px; /* Spacing between items */
+}
+
+#mainNav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 15px;
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition effects */
+}
+
+#mainNav a:hover {
+  background-color: #444; /* Darker background on hover */
+}
+
+#mainNav a.active {
+  background-color: #007bff; /* Blue background for active link */
+  color: #fff;
+}
+
+#content {
+  padding-top: 60px; /* Adjust for the navigation menu height */
+}
+
+/* Section Styling */
+section {
+  padding: 50px;
+  text-align: center;
+}
+
+section h2 {
+  color: #333;
+}
+
+section p {
+  color: #555;
+}
+
+/* Rainbow Color Scheme (using linear gradient) */
+#contact {
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  color: white; /* Make text white for readability */
+}
+
+#contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+#contact li {
+  margin-bottom: 10px;
+}
